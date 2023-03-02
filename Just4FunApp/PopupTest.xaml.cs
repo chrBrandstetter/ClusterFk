@@ -10,25 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Just4FunApp
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for PopupTest.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PopupTest : Window
     {
-        public MainWindow()
+        public PopupTest()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            PopupTest popup = new PopupTest();
-            popup.ShowDialog();
         }
     }
 }
